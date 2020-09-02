@@ -41,6 +41,11 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/* background behind avatar
+.container.d-flex.align-items-center.flex-column {
+  background-color: blue;
+} */
+
 *,
 *::before,
 *::after {
@@ -10143,7 +10148,8 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 20rem;
+  border-radius: 50%;
 }
 
 @media (min-width: 992px) {
